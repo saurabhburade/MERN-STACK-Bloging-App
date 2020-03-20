@@ -1,0 +1,42 @@
+.BlogFieldContainer{
+    height: 100%;
+
+    background: url("./images/Endless-Constellation.svg") no-repeat;
+    background-size: cover;
+    
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BlogFieldContainer form{
+    width: 500px;
+    padding: 5%;
+    
+    background: #f6f7f8; 
+    box-shadow: 0px 0px 20px rgb(6, 16, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    border-radius: 5px;  
+}
+.error{
+    color: red;
+    text-transform: capitalize;
+}
+@media(max-width:700px){
+   .BlogFieldContainer form{
+    
+  
+    width: 90%;
+    background: #f6f7f8; 
+    
+} 
+.BlogFieldContainer{
+   height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}

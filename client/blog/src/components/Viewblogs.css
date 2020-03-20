@@ -1,0 +1,21 @@
+.profileIcon {
+  background: red;
+}
+.blogContainer {
+
+
+  display: flex;
+
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: url("./images/Liquid-Cheese.svg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2%;
+}
+
+@media (max-width:700px){
+  
+}

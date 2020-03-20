@@ -1,0 +1,106 @@
+.dash-container {
+  position: relative;
+min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #f1f9fa;
+  
+  
+}
+.dash-container > div {
+  margin: 1%;
+}
+.dash-left {
+
+  position: relative;
+  flex-grow: 2;
+  width: 800px;
+  overflow: hidden;
+  border-radius: 9px;
+
+  
+}
+.dash-right {
+  width: 300px;
+  
+}
+.dash-profile-items {
+  padding: 5%;
+  background: #f1f9fa;
+
+}
+.dash-profile-card {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.dash-profile {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+
+  background: #fcf9f9;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #b8b3b3;
+
+  overflow: hidden;
+}
+.dash-profile img {
+  width: 100px;
+}
+.card-load {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-load > div {
+  width: 100%;
+  height: 100%;
+}
+.Short_blog_card_container >div {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dash-logout {
+  color: black !important;
+  text-decoration: none !important;
+}
+* {
+  text-decoration: none !important;
+}
+@media(max-width:700px){
+  .dash-container {
+  position: relative;
+min-height: 90vh;
+  display: flex;
+ flex-direction: column-reverse;
+ justify-content: center;
+ align-items:center ;
+
+  background: #f1f9fa;
+  
+  
+}
+.dash-left {
+
+  position: relative;
+padding: 0;
+margin: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9px;
+
+  
+}
+}

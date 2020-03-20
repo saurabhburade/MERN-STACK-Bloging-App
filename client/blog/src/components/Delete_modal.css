@@ -1,0 +1,6 @@
+.del_Modal_container{
+    background: orange;
+    width: 500px;
+    -moz-user-focus: none;
+    
+}

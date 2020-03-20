@@ -1,0 +1,29 @@
+.regContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./images/Slanted-Gradient.svg") no-repeat ;
+    background-size: cover
+    
+}
+.regContainer form{
+    width: 500px;
+    background: #fbffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px 
+#140404;
+    
+}
+@media (max-width:700px){
+    .regContainer form{
+  
+    margin: 2%;
+   
+    
+   
+}
+}

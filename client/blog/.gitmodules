@@ -1,0 +1,3 @@
+[submodule "client/blog/public"]
+	path = client/blog/public
+	url = https://github.com/saurabhburade/MERN-STACK-Bloging-App.git
