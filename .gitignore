@@ -100,5 +100,7 @@ dist
 
 # DynamoDB Local files
 .dynamodb/
+!client
+!server
 
 
